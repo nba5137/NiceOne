@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nba5137.niceone.MainActivity" >
+
+    <TextView
+        android:id="@+id/warn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:text="Warning"
+        android:textAlignment="center"
+        android:textColor="#F00"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/warn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:text="You may use this app only if your age is over 18."
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Yes, I'm over 18. "
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No, I'm under 18."
+        android:textAllCaps="false"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="210dp"
+         />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="470dp"
+        android:text="Author: NBA5137"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
+
